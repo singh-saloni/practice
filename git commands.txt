@@ -17,6 +17,7 @@ Changing files:
     git branch branchname(for creating new branch)
     git branch(for checking current branch)
     git checkout branchname (switching branch)
+    git merge branchname(to merge current working branch with new updated branch given in the command)
 
 
 
