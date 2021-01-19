@@ -10,3 +10,5 @@ clip < ~/.ssh/id_rsa.pub
 hello saloni
 
 hello Azhar
+
+Hello  ghost
