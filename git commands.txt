@@ -1,7 +1,10 @@
-ssh-keygen -t rsa -b 4096 -C 8320494864a@gmail.com
+ssh-keygen -t rsa -b 4096 -C "8320494864a@gmail.com"
 
 eval $(ssh-agent -s)
 
-ssh-add ~.sshid_rsa
 
-clip  ~.sshid_rsa.pub
+ssh-add ~/.ssh/id_rsa
+
+clip < ~/.ssh/id_rsa.pub
+
+hello saloni
