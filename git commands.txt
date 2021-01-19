@@ -2,10 +2,23 @@ ssh-keygen -t rsa -b 4096 -C "8320494864a@gmail.com"
 
 eval $(ssh-agent -s)
 
-
 ssh-add ~/.ssh/id_rsa
 
 clip < ~/.ssh/id_rsa.pub
+
+git init
+git remote add origin sshURL
+
+Changing files:
+    git add .
+    git status
+    git commit -m "comment"
+    git push -u origin branchname
+    git branch branchname(for creating new branch)
+    git branch(for checking current branch)
+    git checkout branchname (switching branch)
+
+
 
 hello saloni
 
