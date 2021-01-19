@@ -8,3 +8,5 @@ ssh-add ~/.ssh/id_rsa
 clip < ~/.ssh/id_rsa.pub
 
 hello saloni
+
+hello Azhar
